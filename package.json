@@ -1,0 +1,51 @@
+{
+  "name": "xenon-nacos-client",
+  "version": "1.1.4",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test-c": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arkreen/arkreen-nacos-client.git"
+  },
+  "homepage": "https://github.com/arkreen/arkreen-nacos-client.git",
+  "keywords": [],
+  "author": "",
+  "license": "Apache 2",
+  "author": {
+    "name": "hnngm",
+    "email": "owen.han@aitos.io",
+    "url": "http://substack.net"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@types/ip": "^1.1.0",
+    "@types/node": "^18.11.18",
+    "ip": "^1.1.8",
+    "nacos": "^2.5.1",
+    "nacos-naming": "^2.5.0",
+    "ts-babel": "^6.1.7",
+    "typescript": "^4.9.4",
+    "yaml": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.5",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1",
+    "ts-babel": "^6.1.7",
+    "ts-jest": "^29.0.3"
+  }
+}
